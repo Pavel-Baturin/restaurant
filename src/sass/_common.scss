@@ -1,1 +1,64 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding-top: 60px;
+    &.lock {
+        overflow: hidden;
+      }
+
+    @media screen and (min-width: 768px) {
+      font-size: 14px;
+      padding-top: 110px;
+    }
+    @media screen and (min-width: 1440px) {
+      font-size: 16px;
+      padding-top: 130px;
+    } 
+  }
+  
+  img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  h1,
+  h2,
+  h3,
+  p,
+  ul {
+    margin: 0;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  button {
+    font: inherit;
+  } 
+
+   body.modal-open {
+    overflow: hidden;
+  }
+
+  .container {
+    margin: 0px auto;
+    padding: 0px 15px;
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      width: 740px;
+      max-width: none;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 1100px; 
+  }
+  }
