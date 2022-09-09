@@ -1,7 +1,99 @@
 <section class="prices">
-    <div class="container">
-      <h2 class="prices__title">
-        Наші <span class="history__style">Страви</span>
-      </h2>
-    </div>
-  </section>
+  <div class="container">
+    <h2 class="prices__title">
+      Наші <span class="prices__title--style">Страви</span>
+    </h2>
+
+    <picture class="prices__pizza">
+      <source
+        srcset="./images/pizza_m.jpg 1x, ./images/pizza_m_2x.jpg 2x"
+        media="(max-width: 767px)"
+      />
+
+      <source
+        srcset="./images/pizza_d.jpg 1x, ./images/pizza_d_2x.jpg 2x"
+        media="(min-width: 768px)"
+      />
+
+      <img src="./images/pizza_m.jpg" alt="." />
+    </picture>
+
+    <ul class="prices__menu">
+      <li class="prices__menu-item">
+        <picture class="prices__image">
+          <source
+            srcset="
+              ./images/mini_burger_m.jpg    1x,
+              ./images/mini_burger_m_2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+
+          <source
+            srcset="
+              ./images/mini_burger_d.jpg    1x,
+              ./images/mini_burger_d_2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+
+          <img src="./images/mini_burger_m.jpg" alt="." />
+        </picture>
+        <div class="prices__name">
+          <h3 class="prices__dish">Гамбургер міні</h3>
+          <p class="prices__price">100 грн.</p>
+        </div>
+      </li>
+      <li class="prices__menu-item">
+        <picture class="prices__image">
+          <source
+            srcset="
+              ./images/mini_burger_m.jpg    1x,
+              ./images/mini_burger_m_2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+
+          <source
+            srcset="
+              ./images/mini_burger_d.jpg    1x,
+              ./images/mini_burger_d_2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+
+          <img src="./images/mini_burger_m.jpg" alt="." />
+        </picture>
+        <div class="prices__name">
+          <h3 class="prices__dish">Гамбургер міні</h3>
+          <p class="prices__price">100 грн.</p>
+        </div>
+      </li>
+      <li class="prices__menu-item">
+        <picture class="prices__image">
+          <source
+            srcset="
+              ./images/mini_burger_m.jpg    1x,
+              ./images/mini_burger_m_2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+
+          <source
+            srcset="
+              ./images/mini_burger_d.jpg    1x,
+              ./images/mini_burger_d_2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+
+          <img src="./images/mini_burger_m.jpg" alt="." />
+        </picture>
+        <div class="prices__name">
+          <h3 class="prices__dish">Гамбургер міні</h3>
+          <p class="prices__price">100 грн.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
