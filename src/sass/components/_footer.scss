@@ -1,0 +1,27 @@
+.footer__background {
+  background-color: black;
+}
+
+.footer {
+  height: 565px;
+  background-image: url('../images/bar_m.jpg');
+  background-size: 320px 565px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;  
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../images/bar_m_2x.jpg');
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 732px;
+    background-image: url('../images/bar_d.jpg');
+    background-size: 1440px 732px;
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../images/bar_d_2x.jpg');
+    }
+  }
+}
